@@ -4,61 +4,63 @@
 
 ![](./img/title.png)
 
-This repository contains the literature referenced in [Taming the Titans: A Survey of Efficient LLM Inference Serving](./), and will be updated regularly.
+This repository contains the literature referenced in [Taming the Titans: A Survey of Efficient LLM Inference Serving](https://arxiv.org/abs/2504.19720), and will be updated regularly.
 
 <!--## Table of Contents-->
 
 ## Table of Contents
 ![](./img/overview.png)
+- [Table of Contents](#table-of-contents)
 - [LLM Inference Serving in Instance](#llm-inference-serving-in-instance)
-    - [Model Placement](#model-placement)
-        - [Model Parallelism](#model-parallelism)
-        - [Offloading](#offloading)
-    - [Request Scheduling](#request-scheduling)
-        - [Inter-Request Scheduling](#inter-request-scheduling)
-        - [Intra-Request Scheduling](#intra-request-scheduling)
-    - [Decoding Length Prediction](#decoding-length-prediction)
-        - [Exact Length Prediction](#exact-length-prediction)
-        - [Range-Based Classification](#range-based-classification)
-        - [Relative Ranking Prediction](#relative-ranking-prediction)
-    - [KV Cache Optimization](#kv-cache-optimization)
-        - [Memory Management](#memory-management)
-        - [Reuse Strategies](#reuse-strategies)
-        - [Compression Techniques](#compression-techniques)
-    - [PD Disaggregation](#pd-disaggregation)
+  - [Model Placement](#model-placement)
+    - [Model Parallelism](#model-parallelism)
+    - [Offloading](#offloading)
+  - [Request Scheduling](#request-scheduling)
+    - [Inter-Request Scheduling](#inter-request-scheduling)
+    - [Intra-Request Scheduling](#intra-request-scheduling)
+  - [Decoding Length Prediction](#decoding-length-prediction)
+    - [Exact Length Prediction](#exact-length-prediction)
+    - [Range-Based Classification](#range-based-classification)
+    - [Relative Ranking Prediction](#relative-ranking-prediction)
+  - [KV Cache Optimization](#kv-cache-optimization)
+    - [Memory Management](#memory-management)
+    - [Reuse Strategies](#reuse-strategies)
+    - [Compression Techniques](#compression-techniques)
+  - [PD Disaggregation](#pd-disaggregation)
 - [LLM Inference Serving in Cluster](#llm-inference-serving-in-cluster)
-    - [Cluster Optimization](#cluster-optimization)
-        - [Architecture and Optimization for Heterogeneous Resources](#architecture-and-optimization-for-heterogeneous-resources)
-        - [Service-Aware Scheduling](#service-aware-scheduling)
-    - [Load Balancing](#load-balancing)
-        - [Heuristic Algorithm](#heuristic-algorithm)
-        - [Dynamic Scheduling](#dynamic-scheduling)
-        - [Intelligent Predictive Scheduling](#intelligent-predictive-scheduling)
-    - [Cloud-Based LLM Serving](#cloud-based-llm-serving)
-        - [Deployment and Computing Effective](#deployment-and-computing-effective)
-        - [Cooperation with Edge Device](#cooperation-with-edge-device)
+  - [Cluster Optimization](#cluster-optimization)
+    - [Architecture and Optimization for Heterogeneous Resources](#architecture-and-optimization-for-heterogeneous-resources)
+    - [Service-Aware Scheduling](#service-aware-scheduling)
+  - [Load Balancing](#load-balancing)
+    - [Heuristic Algorithm](#heuristic-algorithm)
+    - [Dynamic Scheduling](#dynamic-scheduling)
+    - [Intelligent Predictive Scheduling](#intelligent-predictive-scheduling)
+  - [Cloud-Based LLM Serving](#cloud-based-llm-serving)
+    - [Deployment and Computing Effective](#deployment-and-computing-effective)
+    - [Cooperation with Edge Device](#cooperation-with-edge-device)
 - [Emerging Scenarios](#emerging-scenarios)
-    - [Long Context](#long-context)
-        - [Parallel Processing](#parallel-processing)
-        - [Attention Computation](#attention-computation)
-        - [KV Cache Management](#kv-cache-management)
-    - [RAG](#rag)
-        - [Workflow Scheduling](#workflow-scheduling)
-        - [Storage Optimization](#storage-optimization)
-    - [MoE](#moe)
-        - [Expert Placement](#expert-placement)
-        - [Expert Load Balancing](#expert-load-balancing)
-        - [All-to-All Communication](#all-to-all-communication)
-    - [LoRA](#lora)
-    - [Speculative Decoding](#speculative-decoding)
-    - [Augmented LLMs](#augmented-llms)
-    - [Test-Time Reasoning](#test-time-reasoning)
+  - [Long Context](#long-context)
+    - [Parallel Processing](#parallel-processing)
+    - [Attention Computation](#attention-computation)
+    - [KV Cache Management](#kv-cache-management)
+  - [RAG](#rag)
+    - [Workflow Scheduling](#workflow-scheduling)
+    - [Storage Optimization](#storage-optimization)
+  - [MoE](#moe)
+    - [Expert Placement](#expert-placement)
+    - [Expert Load Balancing](#expert-load-balancing)
+    - [All-to-All Communication](#all-to-all-communication)
+  - [LoRA](#lora)
+  - [Speculative Decoding](#speculative-decoding)
+  - [Augmented LLMs](#augmented-llms)
+  - [Test-Time Reasoning](#test-time-reasoning)
 - [Miscellaneous Areas](#miscellaneous-areas)
-    - [Hardware](#hardware)
-    - [Privacy](#privacy)
-    - [Simulator](#simulator)
-    - [Fairness](#fairness)
-    - [Energy](#energy)
+  - [Hardware](#hardware)
+  - [Privacy](#privacy)
+  - [Simulator](#simulator)
+  - [Fairness](#fairness)
+  - [Energy](#energy)
+- [Reference](#reference)
 
 ## LLM Inference Serving in Instance
 
@@ -352,5 +354,13 @@ This repository contains the literature referenced in [Taming the Titans: A Surv
 ## Reference
 We would be grateful if you could cite our survey in your research if you find it useful:
 ```
-soon~
+@misc{zhen2025tamingtitanssurveyefficient,
+      title={Taming the Titans: A Survey of Efficient LLM Inference Serving}, 
+      author={Ranran Zhen and Juntao Li and Yixin Ji and Zhenlin Yang and Tong Liu and Qingrong Xia and Xinyu Duan and Zhefeng Wang and Baoxing Huai and Min Zhang},
+      year={2025},
+      eprint={2504.19720},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.19720}, 
+}
 ```
