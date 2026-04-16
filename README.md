@@ -304,6 +304,7 @@ This repository contains the literature referenced in [Taming the Titans: A Surv
 
 ### Speculative Decoding
 
+- **MineDraft: A Framework for Batch Parallel Speculative Decoding** [arxiv 2026.03] [paper](https://arxiv.org/abs/2603.18016) [code](https://github.com/electron-shaders/MineDraft)
 - **Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding** [ACL 2024] [paper](https://arxiv.org/abs/2401.07851) [code](https://github.com/hemingkx/SpeculativeDecodingPapers)
 - **OPT-Tree: Speculative Decoding with Adaptive Draft Tree Structure** [TACL 2025] [paper](https://aclanthology.org/2025.tacl-1.8/)
 - **SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification** [ASPLOS 2024] [paper](https://dl.acm.org/doi/10.1145/3620666.3651335) [code](https://github.com/goliaro/specinfer-ae)
