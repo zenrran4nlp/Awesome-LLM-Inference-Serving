@@ -364,3 +364,4 @@ We would be grateful if you could cite our survey in your research if you find i
       url={https://arxiv.org/abs/2504.19720}, 
 }
 ```
+- **OneComp** — Fujitsu PTQ pipeline with vLLM plugin. [[Paper](https://arxiv.org/abs/2603.28845)] [[Code](https://github.com/FujitsuResearch/OneCompression)]
