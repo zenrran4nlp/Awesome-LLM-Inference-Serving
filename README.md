@@ -155,6 +155,7 @@ This repository contains the literature referenced in [Taming the Titans: A Surv
 - **Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention** [ATC 2024] [paper](https://www.usenix.org/conference/atc24/presentation/gao-bin-cost)
 - **GPTCache: An Open-Source Semantic Cache for LLM Applications Enabling Faster Answers and Cost Savings** [NLP-OSS 2023] [paper](https://aclanthology.org/2023.nlposs-1.24/)
 - **SCALM: Towards Semantic Caching for Automated Chat Services with Large Language Models** [arxiv 2024.5] [paper](https://arxiv.org/abs/2406.00025)
+- **KV Cache Store: Hosted registry and open-source Rust CLI for verifying, quantizing, and sharing KV-cache artifacts across LLM inference runs** [homepage](https://kvcachestore.com/) [code](https://github.com/kvcachestore/kvcdn)
 
 ####  Compression Techniques
 
