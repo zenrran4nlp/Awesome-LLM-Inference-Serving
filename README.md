@@ -228,6 +228,7 @@ This repository contains the literature referenced in [Taming the Titans: A Surv
 
 #### Cooperation with Edge Device
 
+- **EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution** [arxiv 2026.10] [paper](https://arxiv.org/abs/2610.17816)
 - **EdgeShard: Efficient LLM Inference via Collaborative Edge Computing** [JIOT 2024.12] [paper](https://ieeexplore.ieee.org/abstract/document/10818760)
 - **PerLLM: Personalized Inference Scheduling with Edge-Cloud Collaboration for Diverse LLM Services** [arxiv 2024.5] [paper](https://arxiv.org/abs/2405.14636)
 - **Hybrid SLM and LLM for Edge-Cloud Collaborative Inference** [EdgeFM 2024] [paper](https://dl.acm.org/doi/10.1145/3662006.3662067)
